@@ -1,0 +1,41 @@
+{
+    "name": "colorzilla",
+    "version": "1.0.0",
+    "main": "./dist/index.js",
+    "types": "./dist/types/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "author": "Sikandar Dev <sikandar.dev@gmail.com>",
+    "license": "MIT",
+    "description": "This npm package offers colorized console printing for enhanced message readability.",
+    "dependencies": {
+        "chalk": "^5.4.1"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.1",
+        "typescript": "^5.7.3"
+    },
+ "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sikandardeveloper/colorzilla.git"
+    },
+    "keywords": [
+        "console",
+        "color",
+        "logging",
+        "terminal",
+        "chalk",
+        "colorized-output",
+        "cli",
+        "colorzilla"
+    ],
+    "bugs": {
+        "url": "https://github.com/sikandardeveloper/colorzilla/issues"
+    },
+    "homepage": "https://github.com/sikandardeveloper/colorzilla#readme",
+    "files": [
+        "dist/**/*"
+    ]
+}
